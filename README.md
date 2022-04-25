@@ -1,9 +1,7 @@
 # MS Movie Studio Project 
 by Brandon Menendez 
 
-<br>
-
-![MS_corporate_building](/microsoft_corporate.jpg)
+![microsoft_corporate](https://user-images.githubusercontent.com/103067718/165005916-08a745da-f580-4360-8f0a-ef4a23fffa05.jpg)
 
 
 ## Overview
@@ -48,7 +46,7 @@ For this project, I utilized the following sources of data:
  
 1. As mentioned above, the final dataset for assessing the financials of popular movies totaled 2.8K rows. In order to guage what is "low" investment costs and "high" margin, I first needed to assess the central tendency of the data. For investment costs, I found the mean investment cost to be $28M dollars per movie. For margin, we are targeting being close to or above the average margin% at 137%
 
-![genre_margins](/genre_margins.PNG)
+<img width="583" alt="genre_margins" src="https://user-images.githubusercontent.com/103067718/165005935-875dd0a7-3b8a-4135-be29-8a731857ff27.png">
 
 
 From here, we can see that genres which most closely fit this criteria includes: Horror, Thriller, Family, Biography, Documentary, comedy and Drama. 
@@ -59,12 +57,14 @@ From here, we can see that genres which most closely fit this criteria includes:
 1. An initial look at the data from The Number dataset, shows pretty clearly that movies tend to make good money internationally. In order to determine what the actual benefit of hitting the international market, I did an analysis of movie margins between 2010 and 2020, to understand what percentage of return comes from the international market. As you can see from the area chart below, is often 25% or less of total movie profits in a given year. 
 
 
-![domestic_versus_gross_margins](/domestic_inter_gross.PNG)
+<img width="586" alt="domestic_inter_gross" src="https://user-images.githubusercontent.com/103067718/165005955-1152c8f6-0e04-45f6-aef3-fad89a0bd03f.png">
+
 
 
 However, in order to be successful overseas we need to ensure we know what movies the market demands. Analyzing a subset of the IMDB data, I found 10.2K movies which were shown both domestically and internationally since 2010. As you can see below, out of the most popular movie genres from this dataset, 4 out of the 5 contain eithe Action or Adventure. This seems to be a critical genre to produce in order to be succssful abroad. 
 
-![genre_popularity_bar_chart](/int_genres.PNG)
+
+<img width="669" alt="int_genres" src="https://user-images.githubusercontent.com/103067718/165005969-73af76de-a77f-4f0a-826c-98ab6a3078bf.png">
 
 
 #### Looking into the financials of movie studios. 
